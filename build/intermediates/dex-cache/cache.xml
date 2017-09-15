@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_c211959b4e0ef7fa2a6539812528a8090eda9033.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hakob\.android\build-cache\22429ab86b8a7f095b6a05acafb1c1732d19dbe5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\classes_f4fca081eeeb1c7475f011908a4c0d2a82eafe48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hakob\.android\build-cache\2f1f50fb3d802f3d7c85c9024f469cb101ca3009\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\classes_0027f622d8af2a4016ce633ca1cc44c2cb94e1b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hakob\.android\build-cache\3e76db29ed04ef3aee25c06d46835ba486085ada\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\classes_135d1d71c997f2f99ba911bbe35e61d2d76d6d90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hakob\.android\build-cache\c9b51a8983a99143c24a6f6da4050276381ed368\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\classes_ac852a176697b5f8787a93c052d3658af2b8848a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hakob\.android\build-cache\cc93a0d3b2c5c1ffa5f4bdcf8f1dc52b5c6bd939\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\classes_7dcc369fa2829beb411f53bf94fb5857c8432c4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hakob\.android\build-cache\c1e92ed3e2b361f8fcb4f7833808b6057a4a2400\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\classes_789c534435e98c63c02f648de765a1db22516d1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hakob\.android\build-cache\3a268eebee02e0f9f7516b4d52efa01de9147dff\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\classes_b043c214f819a4155bf44e7133ba2b112503e7ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\android-sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_2e140b4a653cdbde71043dee60c536ef71fed809.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\me\TrackerApp\tracker\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44eba048c5f83076898562d502605563106bf938">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\classes_a8116ace7f786127d087aa188b91b12a8a0d9e50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hakob\.android\build-cache\2deac3c0c261039385729f60cfcbd200b1938c8a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\classes_17be627e5da69ce9edfc61c632543cca62447e95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hakob\.android\build-cache\5d9a5fad56b1138853f0006c12703c9c6654697f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\classes_8e4de11d61fa5454c3560370415772823cd1a74a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hakob\.android\build-cache\77c9f997285a8882663b3cecba882b3fb5234f03\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\classes_beee50d5dd2fb7391e6cc004744423c034b8c59a.jar" />
+    </item>
+
+</items>
