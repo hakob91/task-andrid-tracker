@@ -3,6 +3,7 @@ package com.task.tracker;
 import android.app.Activity;
 import android.app.Application;
 import android.content.Intent;
+import android.net.TrafficStats;
 import android.os.Bundle;
 import android.view.Window;
 
@@ -24,11 +25,11 @@ class ActivityLifecycleTracker implements Application.ActivityLifecycleCallbacks
         Window window = activity.getWindow();
         callback.setAndroidCallback(window.getCallback());
         window.setCallback(callback);
-        if (checkVpnService)
-        {
-            checkVpnService = false;
-            NetworkTrackerActivity.prepareVpnService(activity);
-        }
+//        if (checkVpnService)
+//        {
+//            checkVpnService = false;
+//            NetworkTrackerActivity.prepareVpnService(activity);
+//        }
         logger.print("onActivityCreated: " + activity.getClass().getSimpleName());
     }
 
@@ -60,6 +61,13 @@ class ActivityLifecycleTracker implements Application.ActivityLifecycleCallbacks
     public void onActivitySaveInstanceState(Activity activity, Bundle bundle)
     {
         logger.print("onActivitySaveInstanceState: " + activity.getClass().getSimpleName());
+
+        long mobile = TrafficStats.getMobileRxBytes() + TrafficStats.getMobileTxBytes();
+        long total = TrafficStats.getTotalRxBytes() + TrafficStats.getTotalTxBytes();
+
+        logger.print("UsageWiFi: " + (total - mobile) / 1024 + " Kb");
+        logger.print("UsageMobile: " + mobile / 1024 + " Kb");
+        logger.print("UsageTotal: " + total / 1024 + " Kb");
     }
 
     @Override

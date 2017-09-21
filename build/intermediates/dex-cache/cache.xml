@@ -88,7 +88,7 @@
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="44eba048c5f83076898562d502605563106bf938">
+        sha1="89456fd83add5470fdf5f50cfdfab62e9b70d52e">
         <dex dex="D:\android\me\TrackerApp\app\build\intermediates\pre-dexed\debug\classes_a8116ace7f786127d087aa188b91b12a8a0d9e50.jar" />
     </item>
     <item
