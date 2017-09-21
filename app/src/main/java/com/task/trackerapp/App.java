@@ -12,6 +12,6 @@ public class App extends Application
     public void onCreate()
     {
         super.onCreate();
-        Tracker.init(this);
+		Tracker.init(this);
     }
 }
