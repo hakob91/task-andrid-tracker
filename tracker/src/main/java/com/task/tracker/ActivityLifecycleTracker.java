@@ -2,7 +2,6 @@ package com.task.tracker;
 
 import android.app.Activity;
 import android.app.Application;
-import android.content.Intent;
 import android.net.TrafficStats;
 import android.os.Bundle;
 import android.view.Window;
@@ -62,17 +61,22 @@ class ActivityLifecycleTracker implements Application.ActivityLifecycleCallbacks
     {
         logger.print("onActivitySaveInstanceState: " + activity.getClass().getSimpleName());
 
-        long mobile = TrafficStats.getMobileRxBytes() + TrafficStats.getMobileTxBytes();
-        long total = TrafficStats.getTotalRxBytes() + TrafficStats.getTotalTxBytes();
-
-        logger.print("UsageWiFi: " + (total - mobile) / 1024 + " Kb");
-        logger.print("UsageMobile: " + mobile / 1024 + " Kb");
-        logger.print("UsageTotal: " + total / 1024 + " Kb");
+        trafficDataUsageLog();
     }
 
     @Override
     public void onActivityDestroyed(Activity activity)
     {
         logger.print("onActivityDestroyed: " + activity.getClass().getSimpleName());
+    }
+
+    private void trafficDataUsageLog()
+    {
+        long mobile = TrafficStats.getMobileRxBytes() + TrafficStats.getMobileTxBytes();
+        long total = TrafficStats.getTotalRxBytes() + TrafficStats.getTotalTxBytes();
+
+        logger.print("UsageWiFi: " + (total - mobile) / 1024 + " Kb");
+        logger.print("UsageMobile: " + mobile / 1024 + " Kb");
+        logger.print("UsageTotal: " + total / 1024 + " Kb");
     }
 }
